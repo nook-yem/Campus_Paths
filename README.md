@@ -2,7 +2,7 @@
 Java GUI mapping shortest route between any two RPI buildings
 
 Demo Instructions:  
-  - Simply download and open the CampusPathFinder.jar file (Make sure you have Java SE 18 Runtime Environment installed on your device)
+  - Download the CampusPaths repository and open the CampusPathFinder.jar file (Make sure you have Java SE 18 Runtime Environment installed on your device)
   - Available Features are detailed in Features.pdf
 
 Additional Info:
