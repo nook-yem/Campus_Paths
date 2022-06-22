@@ -23,7 +23,7 @@ public class RPICampusView extends JFrame
 			// dimensions of png are 2175x3400 -> 87x136 ratio
 				// dimensions of actual map are 2057x1921
 		model = m;
-		campusMapScrollPane = new MyJScrollPane(new RPICampusMap(/*87, 136, 6, */model), JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS); 	
+		campusMapScrollPane = new MyJScrollPane(new RPICampusMap(/*87, 136, 6, */model), JScrollPane.VERTICAL_SCROLLBAR_NEVER,JScrollPane.HORIZONTAL_SCROLLBAR_NEVER); 	
 		pack();
 	    this.setContentPane(campusMapScrollPane); 
 	    
